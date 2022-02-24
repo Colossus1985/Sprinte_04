@@ -29,13 +29,13 @@ function getSeason() {
   let month = prompt("Entre un mois pour connaitre la saison:");
   month = month.toLowerCase();
   month = month.charAt(0).toUpperCase() + month.slice(1);
-  console.log(typeof month);
-  console.log("month", month);
-  console.log("|" + month + "|");
-  console.log("condition1 |" + month + "|");
-  console.log("condition2 |" + "Décembre" + "|");
-  console.log("condition not if", month == "Décembre");
-  console.log("condition if", month != "Décembre");
+  // console.log(typeof month);
+  // console.log("month", month);
+  // console.log("|" + month + "|");
+  // console.log("condition1 |" + month + "|");
+  // console.log("condition2 |" + "Décembre" + "|");
+  // console.log("condition not if", month == "Décembre");
+  // console.log("condition if", month != "Décembre");
 
   if (month == "Décembre" || month == "Janvier" || month == "Février") {
     prompt(month + " fait partie de la saison de l'hiver");
